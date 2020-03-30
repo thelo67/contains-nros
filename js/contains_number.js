@@ -11,13 +11,13 @@ const containsNumber = function(numbers, aNumber) {
 
 const displayResult = function() {
 
-  let oneNumber = 11;
-  let someNumbers = [1,4,2,5,6,3,5,3,2];
+  let aNumber = 6;
+  let numbers = [1,4,2,5,6,3,5,3,2];
 
-  if (containsNumber(someNumbers, oneNumber)) {
-      return `Array contains the number ${oneNumber}`;
+  if (containsNumber(numbers, aNumber)) {
+      return `Array contains the number ${aNumber}`;
   } else {
-      return `Array doesn't contain the number ${oneNumber}`;
+      return `Array doesn't contain the number ${aNumber}`;
   }
 
 }
